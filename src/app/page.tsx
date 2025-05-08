@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HeroSvg from "@/app/assest/svg/Decore.svg"
 import Hero from "./components/hero/Hero";
+import Header from "./components/header/Header";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
 
 
       {/**Header */}
+
+      <Header />
 
       {/**Header */}
 
