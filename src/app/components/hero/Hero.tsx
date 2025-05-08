@@ -1,4 +1,3 @@
-import volkhov from "../../../app/layout";
 import hero from "@/app/assest/image/hero.png";
 import Image from "next/image";
 export default function Hero()
@@ -13,7 +12,7 @@ export default function Hero()
 
            <p className="text-[20px] font-bold text-[#DF6951] uppercase">Best Destinations around the world</p>
 
-           <h2 className="text-[82px] text-bold font-[var(--font-volkhov)]">Travel, enjoy and live a new and full life</h2>
+           <h2 id="hero-titel" className="text-[82px] font-bold ">Travel, enjoy and live a new and full life</h2>
 
         </div>
 
