@@ -13,7 +13,7 @@ export default function Hero()
 
         <div className="flex-1/2 relative">
         <Image
-        className="absolute -z-50 top-[-104px] right-[59px]"
+        className="absolute -z-50 top-[101px] right-[-62px]"
         src={titelSvg}
         alt="svg" />
 
