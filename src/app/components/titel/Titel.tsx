@@ -7,7 +7,7 @@ export default function Titel({titel ,wth} : prop){
         <>
         <h2
         style={{width : `${wth}px`}}
-         id="hero-titel" className="text-[50px] font-bold text-[#14183E]">{titel}</h2>
+         id="hero-titel" className="text-[50px] font-bold text-[#14183E] leading-[1.1]">{titel}</h2>
         </>
     )
 }

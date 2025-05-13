@@ -8,7 +8,7 @@ import line from "@/app/assest/svg/line.svg";
 export default function TopDes() {
   return (
     <>
-      <div className=" flex flex-col justify-center items-center w-full mt-[150px] mb-[150px] relative px-[75px]">
+      <div className=" flex flex-col justify-center items-center w-full mt-[150px] mb-[70px] relative px-[75px]">
         <Image
           className="absolute right-[10px] bottom-[119px]"
           src={line}
