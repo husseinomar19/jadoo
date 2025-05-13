@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {Poppins ,Volkhov} from "next/font/google";
+import {Poppins ,Volkhov , Montserrat} from "next/font/google";
 import "./globals.css";
 
 
@@ -9,6 +9,7 @@ const poppins = Poppins({
   variable: '--font-poppins',
   display: 'swap',
 })
+
 
  export const volkhov = Volkhov({
   subsets: ['latin'],
