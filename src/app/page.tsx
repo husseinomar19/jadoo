@@ -2,6 +2,7 @@ import Image from "next/image";
 import HeroSvg from "@/app/assest/svg/Decore.svg"
 import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
+import Offers from "./components/offers/Offer";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
 
 
       {/**offer */}
+      <Offers />
       {/**offer */}
       
 
