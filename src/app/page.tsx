@@ -3,6 +3,7 @@ import HeroSvg from "@/app/assest/svg/Decore.svg"
 import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
 import Offers from "./components/offers/Offer";
+import TopDes from "./components/topdestincations/TopDes";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       
 
       {/**Top Destinations */}
+      <TopDes />
       {/**Top Destinations */}
 
 

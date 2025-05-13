@@ -11,9 +11,11 @@ export default function Offers() {
   return (
     <>
       <div className=" flex flex-col justify-center items-center w-full mt-[150px] mb-[150px] relative">
+
         <Image className="absolute right-[-100px] top-0" src={svg} alt="svg" />
 
         <div className="flex justify-center items-center flex-col">
+
           <p className="text-[18px] uppercase font-semibold text-[#5E6282] tracking-[1px]">
             CATEGORY
           </p>
@@ -81,7 +83,11 @@ export default function Offers() {
               Built Wicket longer admire do barton vanity itself do in it.
             </p>
           </div>
+
+          
         </div>
+
+
       </div>
     </>
   );
