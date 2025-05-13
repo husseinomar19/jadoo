@@ -5,6 +5,7 @@ import offer2 from "@/app/assest/image/offer2.png"
 import offer3 from "@/app/assest/image/offer3.png"
 import offer4 from "@/app/assest/image/offer4.png"
 import svg from "@/app/assest/svg/offer.svg"
+import svg2 from "@/app/assest/svg/offer3.svg"
 
 export default function Offers(){
     return (
@@ -12,6 +13,7 @@ export default function Offers(){
         <div className=" flex flex-col justify-center items-center w-full mt-[150px] mb-[150px] relative">
 
             <Image
+
                 className="absolute right-[-100px] top-0"
                 src={svg}
                 alt="svg"
@@ -30,7 +32,7 @@ export default function Offers(){
             <div className="flex justify-between items-center w-full mt-[110px]">
             
 
-                <div className="flex flex-col justify-center items-center   p-[20px]">
+                <div className="flex flex-col justify-center items-center   p-[38px]">
 
                     <Image
                     width={92}
@@ -44,8 +46,12 @@ export default function Offers(){
                 </div>
 
 
-                <div className="flex flex-col justify-center items-center  p-[20px] border border-amber-100 rounded-3xl">
-
+                <div className="flex flex-col justify-center items-center  p-[38px] rounded-3xl shadow-[0_12px_30px_rgba(0,0,0,0.08)] relative z-10">
+                   <Image
+                   width={106}
+                   className="absolute left-[-25px] bottom-[-25px] -z-40"
+                   src={svg2}
+                   alt="svg" />
                     <Image
                     className="object-none"
                     width={92}
@@ -53,14 +59,14 @@ export default function Offers(){
                     src={offer2}
                     alt="offer" />
 
-                    <p className="text-[#1E1D4C] font-semibold text-[17px] mt-5">Calculated Weather </p>
-                    <p className="text-[16px] text-center mt-1 text-[#5E6282] leading-1px  w-[158px]">Built Wicket longer admire do barton vanity itself do in it.</p>
+                    <p className="text-[#1E1D4C] font-semibold text-[17px] mt-5 z-10">Calculated Weather </p>
+                    <p className="text-[16px] text-center mt-1 text-[#5E6282] leading-1px  w-[158px] z-10">Built Wicket longer admire do barton vanity itself do in it.</p>
 
                 </div>
 
 
 
-<div className="flex flex-col justify-center items-center  p-[20px]">
+<div className="flex flex-col justify-center items-center  p-[38px]">
 
                     <Image
                     className="h-[87px] object-cover"
@@ -74,7 +80,7 @@ export default function Offers(){
                 </div>
 
 
-<div className="flex flex-col justify-center items-center  p-[20px]">
+<div className="flex flex-col justify-center items-center  p-[38px]">
 
                     <Image
                     width={92}
