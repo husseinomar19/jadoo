@@ -53,6 +53,7 @@ export default function TopDes() {
               <div className=" flex justify-between items-center w-full">
                 <p className="text-[18px] font-medium text-[#5E6282]">
                   London, UK
+                  
                 </p>
                 <p className="text-[18px] font-medium text-[#5E6282]">$4,2K</p>
               </div>
